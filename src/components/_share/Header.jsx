@@ -15,7 +15,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import { useNavigate } from 'react-router-dom';
 import { startCase } from 'lodash';
 
-const pages = ['news', 'schedule', 'profile'];
+const pages = ['news', 'calender', 'student'];
 const settings = ['account', 'logout'];
 
 function ResponsiveAppBar() {

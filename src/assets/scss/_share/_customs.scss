@@ -1,0 +1,16 @@
+.center {
+  @include center;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-hover-primary:hover {
+  color: #0d6efd;
+}

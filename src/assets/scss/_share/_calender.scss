@@ -1,0 +1,32 @@
+b {
+  /* used for event dates/times */
+  margin-right: 3px;
+}
+
+.demo-app {
+  display: flex;
+  min-height: 100%;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+
+  &__sidebar {
+    width: 300px;
+    line-height: 1.5;
+    border-right: 1px solid #d3e2e8;
+
+    &__section {
+      padding: 1em 0;
+    }
+  }
+
+  &__main {
+    flex-grow: 1;
+    padding: 1em 0 1em 2em;
+  }
+}
+
+.fc {
+  /* the calendar root */
+  max-width: 1100px;
+  margin: 0 auto;
+}
